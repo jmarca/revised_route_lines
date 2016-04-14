@@ -4,4 +4,4 @@
 
 tempseg_schema 2016-04-14T23:38:28Z James E. Marca <james@activimetrics.com> # schema for temp segment work
 rdg_seq [osm_via_osmosis:route_relations] 2016-04-14T23:24:30Z James E. Marca <james@activimetrics.com> # sequence for relation direction geometries table
-rdg 2016-04-14T23:44:06Z James E. Marca <james@activimetrics.com> # relation-direction-geometries utility table
+rdg [tempseg_schema rdg_seq] 2016-04-14T23:44:06Z James E. Marca <james@activimetrics.com> # relation-direction-geometries utility table
