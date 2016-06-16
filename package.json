@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/jmarca/revised_route_lines/issues"
   },
-  "homepage": "https://github.com/jmarca/revised_route_lines#readme"
+  "homepage": "https://github.com/jmarca/revised_route_lines#readme",
+  "dependencies": {
+      "osm_load": "github:jmarca/osm_load",
+      "tempseg_schema": "github:jmarca/tempseg_schema"
+  }
 }
