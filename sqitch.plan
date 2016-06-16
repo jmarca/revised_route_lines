@@ -2,10 +2,9 @@
 %project=revised_route_lines
 %uri=https://github.com/jmarca/revised_route_lines
 
-tempseg_schema 2016-04-14T23:38:28Z James E. Marca <james@activimetrics.com> # schema for temp segment work
 rdg_seq [osm_additional_views:route_relations] 2016-04-14T23:24:30Z James E. Marca <james@activimetrics.com> # sequence for relation direction geometries table
-rdg [tempseg_schema rdg_seq] 2016-04-14T23:44:06Z James E. Marca <james@activimetrics.com> # relation-direction-geometries utility table
-initial_routelines [tempseg_schema rdg] 2016-04-15T00:00:11Z James E. Marca <james@activimetrics.com> # initial_routelines utility table
+rdg [tempseg_schema:tempseg_schema rdg_seq] 2016-04-14T23:44:06Z James E. Marca <james@activimetrics.com> # relation-direction-geometries utility table
+initial_routelines [tempseg_schema:tempseg_schema rdg] 2016-04-15T00:00:11Z James E. Marca <james@activimetrics.com> # initial_routelines utility table
 split_lines [initial_routelines] 2016-04-15T05:01:17Z James E. Marca <james@activimetrics.com> # first split lines table
 fixed_relations [split_lines] 2016-04-15T05:22:29Z James E. Marca <james@activimetrics.com> # fixed split relations
 more_splits [fixed_relations split_lines] 2016-04-15T06:28:42Z James E. Marca <james@activimetrics.com> # more split lines working table
