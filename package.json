@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/jmarca/revised_route_lines#readme",
   "dependencies": {
-      "osm_load": "github:jmarca/osm_load",
-      "tempseg_schema": "github:jmarca/tempseg_schema"
+    "osm_additional_views": "github:jmarca/osm_additional_views",
+    "osm_load": "github:jmarca/osm_load",
+    "tempseg_schema": "github:jmarca/tempseg_schema"
   }
 }
