@@ -1,0 +1,22 @@
+{
+  "name": "revised_route_lines",
+  "version": "1.0.0",
+  "description": "Revised route lines work---clean up standard OSM lines for hwy routes",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "pgtap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarca/revised_route_lines.git"
+  },
+  "author": "James E. Marca",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/jmarca/revised_route_lines/issues"
+  },
+  "homepage": "https://github.com/jmarca/revised_route_lines#readme"
+}
